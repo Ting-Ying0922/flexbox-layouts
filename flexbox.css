@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* position: relative; */
+}
+
+.box-title {
+    display: flex;
+    justify-content: space-between; /* 分散对齐内容 */
+    align-items: center; /* 垂直居中对齐 */
+    flex-direction: row; 
+    background-color: black; 
+    padding: 50px 20px; 
+}
+
+.box-ECO {
+    background-color: white; 
+    color: black; 
+    padding: 10px; 
+    width: 50px;
+    height: 20px;
+}
+
+.leaf img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 40px;
+}
+
+
+.box-subtitle ul {
+    list-style: none; /* 去掉列表符号 */
+    padding: 0; /* 去掉内边距 */
+    margin: 0; /* 去掉外边距 */
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+}
+
+.box-subtitle a {
+    color: white; 
+    text-decoration: none;
+}
+
+.box-subtitle a:hover {
+    color: green;
+}
+
+
+
+.box-main-container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.box-main-page {
+    flex: 2;
+    background-color: white; 
+    text-align: center; /* 文本居中 */
+    padding: 20px; 
+}
+
+.box-cate {
+    flex: 1; 
+    background-color: #333;
+    padding: 10px; 
+}
+
+.box-cate p {
+    text-align: center; /* 上方标题居中 */
+    color: white;
+}
+
+.box-cate ul {
+    list-style: none; /* 去掉列表符号 */
+    padding: 0; /* 去掉内边距 */
+    margin: 20px 0 0; /* 上外边距 */
+}
+
+.box-cate li {
+    margin: 10px 0; /* 列表项之间的间距 */
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.box-foot {
+    background-color: black;
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.box-foot ul {
+    list-style-type: none; /* 移除列表符號 */
+    /* padding: 0; 移除內邊距
+    margin: 0; 移除外邊距 */
+}
+
+.box-foot nav {
+    display: flex; /* 使用彈性佈局 */
+    justify-content: center; 
+    /* 置中排列 */
+}
+
+.box-foot li {
+    margin: 0 15px; 
+}
+
+.box-foot a {
+    color: rgb(51, 52, 133); 
+    text-decoration: none; /* 移除下劃線 */
+}
+
+.line {
+    width: 100%; 
+    height: 2px; 
+    background-color: white;
+    margin: 20px 0; 
+}
+
+.My-Website {
+    margin-top: 10px; 
+}
+
+
+.header {
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* 分散对齐内容 */
+    align-items: center; /* 垂直居中对齐 */
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav-item1 {
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+}
+
+.nav-item {
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    /* overflow: hidden;  */
+}
+
+.sidebar {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: peachpuff; /* 膚色框框 */
+    margin-right: 20px;
+    border: 2px solid #000;
+}
+
+.content {
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    line-height: 1.6;  /* 增加行高 */
+    text-align: justify;  /* 文字兩端對齊 */
+}
+
+
+.content-container2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    /* overflow: hidden;  */
+}
+
+.sidebar2 {
+    float: right;
+    width: 150px;
+    height: 150px;
+    background-color: peachpuff; 
+    margin-right: 20px;
+    border: 2px solid #000;
+}
+
+.content2 {
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.content2 h2 {
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    margin-bottom: 10px;
+    line-height: 1.6;  /* 增加行高 */
+    text-align: justify;  /* 文字兩端對齊 */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* 分散对齐内容 */
+    align-items: center; /* 垂直居中对齐 */
+    flex-direction: row;
+    gap: 10px;
+    background-color: lightgreen;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    border: solid 1px;
+    justify-content: center; 
+    align-items: center;
+}

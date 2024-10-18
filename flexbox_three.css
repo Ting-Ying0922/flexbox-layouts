@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* 頂部導航欄 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9acd32;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-item {
+    width: 50px;
+    height: 30px;
+    background-color: #87ceeb;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 側邊欄 */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #9acd32;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+.sidebar-item {
+    height: 40px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 圖片區域 */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.image-box {
+    flex: 1 1 30%;
+    min-height: 100px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 底部區域 */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.footer-item {
+    width: 100px;
+    height: 30px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
